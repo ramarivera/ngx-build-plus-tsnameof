@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tsnameof-poc';
+
+  NamedProperty = 42;
+
+  nameOfProperty = nameof<AppComponent>(x => x.NamedProperty);
 }
