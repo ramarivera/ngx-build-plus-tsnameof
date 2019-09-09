@@ -10,5 +10,6 @@ export class AppComponent {
 
   NamedProperty = 42;
 
-  nameOfProperty = nameof<AppComponent>(x => x.NamedProperty);
+  nameOfProperty2 = nameof<AppComponent>(x => x.NamedProperty);
+  nameOfProperty = 'NamedProperty';
 }
